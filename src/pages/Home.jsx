@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="bg-slate-50">
       <div className="relative h-[600px] bg-gray-900 flex items-center">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1920')] bg-cover bg-center opacity-50"></div>
+        <div className="absolute inset-0 bg-[url('https://i.pinimg.com/1200x/cd/5d/d8/cd5dd8607a7fcc35bad9f01f15ca581b.jpg')] bg-cover bg-center opacity-50"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 text-center md:text-left">
           <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight">
             DRIVE THE <br /> <span className="text-blue-500">FUTURE</span>

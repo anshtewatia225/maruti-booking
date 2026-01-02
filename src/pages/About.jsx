@@ -8,7 +8,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div>
-            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1000" alt="Factory" className="rounded-2xl shadow-xl" />
+            <img src="https://imgs.search.brave.com/DwCRcGQwgekfo8e3bnFKfwFrC3x5qF0vOT4VhR4pt6Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvOTQ3/ODg0NC5qcGc" alt="Factory" className="rounded-2xl shadow-xl" />
           </div>
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Legacy</h2>

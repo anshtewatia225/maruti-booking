@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { loginSuccess } from '../features/authSlice';
 import { Car, ArrowRight, Github, Chrome } from 'lucide-react';
+import cover_login from '../assets/cover_login.jpg';
 
 const Login = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -28,7 +29,10 @@ const Login = () => {
       
       
       <div className="hidden lg:flex w-1/2 relative bg-gray-900 overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://imgd.aeplcdn.com/370x208/n/cw/ec/147201/invicto-exterior-closed-hood-bonnet.jpeg?isig=0&q=80')] bg-cover bg-center opacity-60"></div>
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-60"
+          style={{ backgroundImage: `url(${cover_login})` }}
+        ></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
         
         <div className="relative z-10 flex flex-col justify-between p-16 w-full text-white">
